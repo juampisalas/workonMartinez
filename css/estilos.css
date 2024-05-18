@@ -1,0 +1,18 @@
+.video-container {
+    position: fixed; /* Fija el contenedor en la pantalla */
+    top: 0;
+    left: 0;
+    width: 100%; /* Ocupa todo el ancho de la pantalla */
+    height: 100%; /* Ocupa todo el alto de la pantalla */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#player {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%; /* Ocupa todo el ancho del contenedor */
+    height: 100%; /* Ocupa todo el alto del contenedor */
+}
