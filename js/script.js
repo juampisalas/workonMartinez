@@ -7,7 +7,7 @@ var player;
 function onYouTubeIframeAPIReady() {
   console.log("La API de YouTube está lista.");
   player = new YT.Player('player', {
-    videoId: 'geTN78FHhsg', // Aquí es donde pones el ID del video
+    videoId: 'jZkNp57Ddvw', // Aquí es donde pones el ID del video
     playerVars: {
       'autoplay': 1
     },
